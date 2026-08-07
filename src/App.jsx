@@ -185,7 +185,7 @@ export default function App() {
           <div className="backdrop-blur-md bg-white/5 border-b border-white/10">
             <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
               <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
-                {"<YourName />"}
+                {"<JESS ROSE/>"}
               </div>
               <div className="flex gap-6">
                 {['about', 'projects', 'skills', 'resume', 'contact'].map((section) => (
@@ -458,7 +458,7 @@ export default function App() {
                             onChange={handleInputChange}
                             required
                             className="w-full px-4 py-3 backdrop-blur-xl bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/20 transition-all"
-                            placeholder="Your Name"
+                            placeholder="Jessica Ambrose"
                           />
                         </div>
                         <div>
@@ -568,7 +568,7 @@ export default function App() {
 
         {/* Footer */}
         <footer className="border-t border-white/10 backdrop-blur-md bg-white/5 py-8 text-center text-gray-400">
-          <p>© 2025 Your Name. Built with React and Tailwind CSS.</p>
+          <p>© 2025 Your Test. Built with React and Tailwind CSS.</p>
         </footer>
       </div>
 
